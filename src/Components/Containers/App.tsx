@@ -1,8 +1,13 @@
 import React from 'react'
-import './App.css'
+import './App.scss'
+import Header from '../Header/Header'
 
 const App: React.FC = () => {
-    return <div className="App">aa</div>
+  return (
+    <div className="App">
+      <Header />
+    </div>
+  )
 }
 
 export default App
